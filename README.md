@@ -21,6 +21,12 @@ The frontend is pure **HTML, CSS, and vanilla JavaScript** — no frameworks —
 
 ![Disha Portal — Desktop and Mobile View](./screenshots/hero.png)
 
+### Key Highlights
+* **Automated Rank-Wise Categorization**: Intelligently segments options into Safe, Target, and Dream choices.
+* **Multilingual UI Support**: Full localization across English, Hindi (हिंदी), Gujarati (ગુજરાતી), and Kannada (ಕನ್ನಡ).
+* **Statistical Admission Probability**: Employs historical round-wise volatility and sigmoid modeling for realistic admission chances.
+* **Offline-Ready PWA**: Progressive Web App capabilities for instant access across both mobile and desktop devices.
+
 ---
 
 ## Quick Start
