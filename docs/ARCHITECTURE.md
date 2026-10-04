@@ -62,3 +62,8 @@ Candidate options are partitioned into three actionable bands:
 * For NITs and IIEST: Evaluates `HS` quota first; automatically falls back to `OS` if OS closing rank presents higher tier accessibility.
 * For IITs and IIITs: Default evaluation strictly adheres to `AI` (All India) pool.
 * Dual-pool candidates: System produces comparative eligibility markers across quota variants.
+
+### Career Interest Matrix
+* `Coding & software`: High affinity weights for CSE, IT, Data Science, AI, and Mathematics & Computing.
+* `Core engineering`: Weighted for Mechanical, Civil, Electrical, and Chemical disciplines.
+* `Research & Deep Tech`: Prioritizes Engineering Physics, Aerospace, and Materials Engineering.
