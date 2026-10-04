@@ -26,3 +26,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added validation criteria for category rank cross-referencing.
 - Enhanced API schema documentation with explicit payload types.
+
+- Documented career tag weighting methodology in architecture guide.
+- Added cold-start profiling benchmarks in performance overview.
