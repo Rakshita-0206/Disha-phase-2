@@ -91,3 +91,7 @@ Returns system status, memory allocation, and active model versions.
 * `seat_type`: Must be one of `OPEN`, `OBC-NCL`, `SC`, `ST`, `EWS`, or associated PwD sub-tiers.
 * `rank_type`: Strict enum matching either `JEE_MAIN` or `JEE_ADVANCED`.
 * HTTP 422: Returned on malformed payload structure with detailed field-level path pointers.
+
+### Sorting & Ranking Parameters
+* Default ordering: Tier priority (`Safe` > `Target` > `Reach`) sorted descending by computed admission probability.
+* Tie-breaker: Ordered by descending `interest_score` followed by ascending closing rank delta.
