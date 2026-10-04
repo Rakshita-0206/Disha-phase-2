@@ -23,3 +23,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - Resolved boundary edge-cases in home state quota detection for multi-campus institutes.
+
+- Added validation criteria for category rank cross-referencing.
+- Enhanced API schema documentation with explicit payload types.
