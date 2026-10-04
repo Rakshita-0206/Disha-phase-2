@@ -1,4 +1,4 @@
-# Disha (दिशा) — JEE College Recommender & Analytics Portal
+# Disha (दिशा) Phase 2 — JEE College Recommender & Analytics Portal
 
 Disha is an open-source intelligent counselling pipeline and interactive portal designed to help JEE Main and Advanced aspirants navigate the complex JoSAA/CSAB seat allocation process. By inputting their ranks, gender, home state, and career aspirations, students receive a personalized, mathematically backed list of eligible college and branch options. Unlike static PDF cutoff tables, Disha groups recommendations into intuitive categories (Safe, Target, and Dream—referred to as Reach in backend models and API payloads), calculates the statistical probability of admission based on historical round-wise volatility, and aligns choices with the student's career interests.
 
