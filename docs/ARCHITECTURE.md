@@ -57,3 +57,8 @@ Candidate options are partitioned into three actionable bands:
 * Gradient factor ($k$): Configured to $0.0085$ for calibrated transition slopes.
 * Extreme delta cap: Damped at $15\%$ maximum deduction to prevent false negatives.
 * Historic anchor: Benchmarked against multi-year round shifts to mitigate single-year seat count anomalies.
+
+### Quota Expansion Engine
+* For NITs and IIEST: Evaluates `HS` quota first; automatically falls back to `OS` if OS closing rank presents higher tier accessibility.
+* For IITs and IIITs: Default evaluation strictly adheres to `AI` (All India) pool.
+* Dual-pool candidates: System produces comparative eligibility markers across quota variants.
