@@ -26,3 +26,4 @@ conftest.py
 tests/
 mock_portal.py
 DISHA_INTEGRATION_QA.md
+.commit_msg.tmp
