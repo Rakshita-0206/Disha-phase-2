@@ -99,3 +99,7 @@ Returns system status, memory allocation, and active model versions.
 ### Localization Support
 * Header `Accept-Language`: Supports `en`, `hi`, `gu`, `kn`.
 * UI templates dynamically switch label dictionaries without server re-computation.
+
+### Statistical Metrics Schema
+* `gender_cushion_ratio`: Ratio of female-only cutoff to gender-neutral cutoff.
+* `cse_premium_index`: Ratio of overall branch median closing rank to CSE closing rank.
