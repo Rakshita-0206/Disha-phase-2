@@ -67,3 +67,7 @@ Candidate options are partitioned into three actionable bands:
 * `Coding & software`: High affinity weights for CSE, IT, Data Science, AI, and Mathematics & Computing.
 * `Core engineering`: Weighted for Mechanical, Civil, Electrical, and Chemical disciplines.
 * `Research & Deep Tech`: Prioritizes Engineering Physics, Aerospace, and Materials Engineering.
+
+### Gender Seat Allocation Logic
+* Female candidates are simultaneously evaluated in `Female-only (including Supernumerary)` and `Gender-Neutral` pools.
+* The system assigns the candidate the most advantageous seat tier between both allocations.
