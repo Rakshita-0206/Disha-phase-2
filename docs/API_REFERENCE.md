@@ -95,3 +95,7 @@ Returns system status, memory allocation, and active model versions.
 ### Sorting & Ranking Parameters
 * Default ordering: Tier priority (`Safe` > `Target` > `Reach`) sorted descending by computed admission probability.
 * Tie-breaker: Ordered by descending `interest_score` followed by ascending closing rank delta.
+
+### Localization Support
+* Header `Accept-Language`: Supports `en`, `hi`, `gu`, `kn`.
+* UI templates dynamically switch label dictionaries without server re-computation.
