@@ -31,3 +31,7 @@ Benchmarks performed over 1,000 synthetic candidate requests:
 ### Server Lifespan Optimizations
 * FastAPI `lifespan` context manager handles CSV parsing before opening the port.
 * Eliminates the first-request penalty (P99 cold start dropped from 840ms to 6.2ms).
+
+### Progressive Web App (PWA) Caching Policy
+* Static Assets (`.css`, `.js`, `.svg`): Cache-First with 7-day TTL.
+* Statistical Endpoints (`/stats`): Stale-While-Revalidate with background refresh.
