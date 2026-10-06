@@ -15,3 +15,5 @@ This document records automated integrity checks, code quality audits, and modul
 - Institute boundary audit: Verified URL and state mappings for all 23 IITs, 32 NITs/IIEST, 26 IIITs, and 47 GFTIs.
 
 - Endpoint route audit: Verified 200 OK across `/`, `/stats`, `/health`, and `/api/docs`.
+
+- PWA manifest audit: Validated display mode `standalone`, theme color `#2563eb`, and SVG icon assets.
