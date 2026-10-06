@@ -29,3 +29,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Documented career tag weighting methodology in architecture guide.
 - Added cold-start profiling benchmarks in performance overview.
+
+- Expanded documentation regarding supernumerary seat allocation logic.
+- Standardized statistical aggregates endpoint definitions.
