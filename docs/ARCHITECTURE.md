@@ -71,3 +71,7 @@ Candidate options are partitioned into three actionable bands:
 ### Gender Seat Allocation Logic
 * Female candidates are simultaneously evaluated in `Female-only (including Supernumerary)` and `Gender-Neutral` pools.
 * The system assigns the candidate the most advantageous seat tier between both allocations.
+
+### Mathematical Volatility Formulation
+$$\mathcal{V} = \min\left(0.15, \frac{|\text{Closing}_{R6} - \text{Closing}_{R1}|}{\text{Closing}_{R1}}\right)$$
+* Prevents overly optimistic recommendations for branches subject to volatile round fluctuations.
