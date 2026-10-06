@@ -35,3 +35,7 @@ Benchmarks performed over 1,000 synthetic candidate requests:
 ### Progressive Web App (PWA) Caching Policy
 * Static Assets (`.css`, `.js`, `.svg`): Cache-First with 7-day TTL.
 * Statistical Endpoints (`/stats`): Stale-While-Revalidate with background refresh.
+
+### Compression & Transport
+* Gzip middleware enabled for payloads exceeding 1KB.
+* Serialization overhead reduced by pre-filtering dictionaries before Pydantic schema validation.
