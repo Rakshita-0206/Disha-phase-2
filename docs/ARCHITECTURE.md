@@ -95,3 +95,7 @@ $$\mathcal{V} = \min\left(0.15, \frac{|\text{Closing}_{R6} - \text{Closing}_{R1}
 
 <!-- Section revision 44 - verified operational stability (2026-10-11) -->
 
+
+
+<!-- Section revision 49 - verified operational stability (2026-10-12) -->
+
